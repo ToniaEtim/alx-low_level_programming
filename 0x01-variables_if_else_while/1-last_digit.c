@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - print main function
+* main - print string in the main function
 *
-* description: use the main function
+* Description: using the main function
 * this programme is printing the last digit
-*return: 0
+* Return: 0
 */
 int main(void)
 {
