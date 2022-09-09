@@ -1,3 +1,2 @@
 #!/bin/bash
-gcc -S -masm=intel test.c#!/bin/bash
-gcc -S -masm=intel test.c
+gcc -S -masm=intel -Og -fverbose-asm test.c
