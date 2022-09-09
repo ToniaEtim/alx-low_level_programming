@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <string.h>
-
-int main (void)
+/**
+*main -print the stringin the puts function 
+*
+* Description: using the main function 
+* This programme print "Programming is like building a multilingual puzzle
+* Return 0
+*/
+int main(void)
 { 
-char str1[54];
-strcpy(str1, "Programming is like building a multilingual puzzle/n);
-puts(str1);
-return(0);
+      puts("\"Programming is like building a multilingual puzzle");
+      return (0);
 }
-
-    	    
-	
