@@ -7,11 +7,17 @@
  * print the bytes of all
  * Return:0
  */
-int main(void)
+int main(void) 
 {
-  printf("size of a char: %d byte(s)\n", 1);
-  printf("size of an int: %d byte(s)\n", 4);
-  printf("size of a long int: %d byte(s)\n", 4);
-  printf("size of a long long int: %d byte(s)\n", 8);
-  printf("size of a float: %dbyte(s)\n", 4);
-}
+
+  char c;
+  int i;
+  long li;
+  long long lli;
+  float f;
+
+  printf("size of a char: %ld byte(s)\n", sizeof(c));
+  printf("size of an int: %ld byte(s)\n", sizeof(i));
+  printf("size of a long int: %ld byte(s)\n", sizeof(li));
+  printf("size of a long long int: %ld byte(s)\n", sizeof(lli));
+  printf("size of a float: %ld byte(s)\n", sizeof(f));
