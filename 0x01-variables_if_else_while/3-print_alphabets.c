@@ -18,6 +18,6 @@ for (ch = "A" ; ch <= "Z" ; ch++)
 
 	putchar(ch);
 }
-putchar("\n")
+putchar(ch"\n");
 return (0);
 }
