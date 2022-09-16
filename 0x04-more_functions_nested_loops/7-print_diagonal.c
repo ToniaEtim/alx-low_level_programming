@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
-*print_diagonal - function prints diagonal line
-*@n: is the number of times the character should be printed
+*print_diagonal - prints diagonal
+*@n: parameter
 *Return: returns nothing
 */
 
@@ -24,7 +24,7 @@ void print_diagonal(int n)
 
 			putchar('\\');
 
-			if (len == (n -1))
+			if (len == (n - 1))
 			{
 				continue;
 			}
