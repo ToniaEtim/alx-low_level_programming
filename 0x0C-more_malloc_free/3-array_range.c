@@ -4,27 +4,25 @@
 #include <string.h>
 
 /**
- * array_range - function that creates any array of intergers
+ * array_range - makes an arrary with numbers
  * @min: start num
  * @max: max num
- * Return: the pointer to the allocated array
+ * Return: pointer
  */
-
 int *array_range(int min, int max)
 {
 	int *arr;
-	int i, len;
+	int i, l = 0;
+	int sum;
 
 	if (min > max)
 		return (NULL);
-	for (len = 0; len < (max - min); len++)
-
-	arr = malloc(sizeof(int) * (len + 1));
+	sum = max - min;
+	arr = malloc(sizeof(int) * (sum + 1));
 	if (arr == NULL)
 		return (NULL);
-	for (i = 0; i <= len; i++)
-	{
-		arr[i] = min++;
-	}
+	l = min;
+	for (i = 0; i <= sum; i++)
+		arr[i] = l++;
 	return (arr);
 }
